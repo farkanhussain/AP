@@ -8,5 +8,8 @@ def analyse_sentence(sentence):
 
     return total_words, unique_words, most_common
 
-sentence="The quick brown fox jumped over the lazy dog"
+sentence="Python is great, python is fun, python is useful"
 total,unique,common=analyse_sentence(sentence)
+print("Total words: ",total)
+print("Unique words: ",unique)
+print("Most common words: ",common[0], "appears",Common[1],"times")
