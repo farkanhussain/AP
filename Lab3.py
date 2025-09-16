@@ -12,4 +12,4 @@ sentence="Python is great, python is fun, python is useful"
 total,unique,common=analyse_sentence(sentence)
 print("Total words: ",total)
 print("Unique words: ",unique)
-print("Most common words: ",common[0], "appears",Common[1],"times")
+print("Most common words: ",common[0], "appears",common[1],"times")
